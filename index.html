@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Bablu Arya — B.Tech CSE student focused on full-stack development, backend engineering and cybersecurity.">
+  <title>Bablu Arya | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Bablu Arya home"><span class="brand-mark">B<span>.</span></span><span>BABLU ARYA</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#certifications">Certificates</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="top-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">☼</button>
+      <a class="button button-small button-outline" href="https://raw.githubusercontent.com/khardiya/Resume/main/BABLU_ARYA.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> OPEN TO OPPORTUNITIES <i></i></div>
+        <p class="kicker">HELLO, I'M</p>
+        <h1>Bablu <em>Arya</em><b>.</b></h1>
+        <h2>Building for the web.<br><span>Thinking about security.</span></h2>
+        <p class="intro">Computer Science undergraduate focused on full-stack development, backend engineering, and cybersecurity. I turn ideas into practical applications and keep learning by building.</p>
+        <div class="hero-buttons"><a class="button button-primary" href="#projects">Explore my work <span>↗</span></a><a class="button button-outline" href="https://raw.githubusercontent.com/khardiya/Resume/main/BABLU_ARYA.pdf" target="_blank" rel="noopener">↓ Download CV</a></div>
+        <div class="hero-meta"><span>⌖ India</span><span>B.Tech CSE · Cyber Security</span><span>2023—2027</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-grid"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="portrait"><img src="assets/me.jpeg" alt="Bablu Arya"><div class="portrait-label"><span>DEVELOPER / STUDENT</span><b>⌘</b></div></div>
+        <div class="float-card float-code"><span class="float-icon">⌘</span><span>Always building<br><b>&lt;code /&gt;</b></span></div>
+        <div class="float-card float-security"><span class="float-icon">⬡</span><span>Security-minded</span></div>
+        <div class="art-index">01 — PORTFOLIO</div>
+      </div>
+      <a class="scroll-cue" href="#about">↓ <span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-heading"><div class="section-overline"><span>01</span> WHO I AM</div><h2>A little about <em>me.</em></h2></div>
+      <div class="two-col"><p class="statement">I’m a developer who enjoys working across the stack — from clean interfaces to the systems behind them.</p><div class="body-copy"><p>I'm pursuing a B.Tech in Computer Science and Engineering (Cyber Security) at Lamrin Tech Skills University. My interests sit at the intersection of software engineering and application security.</p><p>I enjoy learning by shipping projects, exploring backend architecture, and strengthening my fundamentals through Java and data-structures-and-algorithms practice.</p><div class="text-links"><a href="https://github.com/khardiya" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></div>
+    </section>
+
+    <section class="section wrap" id="projects">
+      <div class="section-heading"><div class="section-overline"><span>02</span> THINGS I'VE BUILT</div><h2>Selected <em>projects.</em></h2><p class="section-desc">A few practical projects where I’ve applied what I’m learning.</p></div>
+      <div class="project-grid">
+        <article class="project-card featured"><div class="project-top"><span>01 / 04</span><small>FULL-STACK · CYBERSECURITY</small></div><div class="project-symbol">▦</div><h3>GRC Risk Assessment Dashboard</h3><p>Risk assessment dashboard with likelihood × impact scoring, heatmap visualization and CSV export.</p><div class="tags"><span>React</span><span>FastAPI</span><span>SQLite</span><span>Python</span></div><div class="project-actions"><a href="https://github.com/khardiya/grc-risk-tool-bablu" target="_blank" rel="noopener">Source code <b>↗</b></a></div></article>
+        <article class="project-card"><div class="project-top"><span>02 / 04</span><small>FULL-STACK · TRAVEL PLATFORM</small></div><div class="project-symbol">⌖</div><h3>WonderLust</h3><p>Airbnb-style listings application with location-aware discovery and map integration.</p><div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>EJS</span><span>Radar API</span></div><div class="project-actions"><a href="https://github.com/khardiya/MajorProject-WonderLust" target="_blank" rel="noopener">Source code <b>↗</b></a><a href="https://wonderlust-ciu5.onrender.com/listings" target="_blank" rel="noopener">Live demo <b>↗</b></a></div></article>
+        <article class="project-card"><div class="project-top"><span>03 / 04</span><small>BACKEND · REST API</small></div><div class="project-symbol">▶</div><h3>YouTube Backend</h3><p>Backend project covering authentication and video, playlist, comment, like and subscription workflows.</p><div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Mongoose</span><span>JWT</span><span>Cloudinary</span></div><div class="project-actions"><a href="https://github.com/khardiya/Youtube-Backend" target="_blank" rel="noopener">Source code <b>↗</b></a><a href="https://youtube-backend-taupe.vercel.app/" target="_blank" rel="noopener">Live app <b>↗</b></a></div></article>
+        <article class="project-card"><div class="project-top"><span>04 / 04</span><small>FRONTEND · PERSONAL WEBSITE</small></div><div class="project-symbol">✳</div><h3>Personal Portfolio</h3><p>A responsive portfolio built with semantic HTML, custom CSS and vanilla JavaScript to present my work and technical journey.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive UI</span></div><div class="project-actions"><a href="https://github.com/khardiya/Portfolio" target="_blank" rel="noopener">Source code <b>↗</b></a></div></article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="skills">
+      <div class="section-heading"><div class="section-overline"><span>03</span> MY TOOLKIT</div><h2>Tools of the <em>trade.</em></h2></div>
+      <div class="skills-grid">
+        <div class="skill-card"><h3><span>01</span>Frontend</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>Bootstrap</span><span>Tailwind CSS</span></div></div>
+        <div class="skill-card"><h3><span>02</span>Backend</h3><div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>JWT</span><span>Multer</span><span>Passport.js</span></div></div>
+        <div class="skill-card"><h3><span>03</span>Databases</h3><div class="tags"><span>MongoDB</span><span>Mongoose</span><span>MySQL</span><span>PostgreSQL</span><span>SQLite</span></div></div>
+        <div class="skill-card"><h3><span>04</span>Languages</h3><div class="tags"><span>Java</span><span>JavaScript</span><span>C++</span><span>Python</span></div></div>
+        <div class="skill-card"><h3><span>05</span>Tools & platforms</h3><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Postman</span><span>Linux</span><span>Cloudinary</span><span>Radar API</span></div></div>
+        <div class="skill-card"><h3><span>06</span>Core CS</h3><div class="tags"><span>Data Structures</span><span>Algorithms</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networks</span></div></div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="journey">
+      <div class="section-heading"><div class="section-overline"><span>04</span> THE JOURNEY SO FAR</div><h2>Education & <em>milestones.</em></h2></div>
+      <div class="timeline">
+        <article><div class="timeline-icon">⌂</div><div><h3>B.Tech — Computer Science & Engineering</h3><p>Cyber Security · Lamrin Tech Skills University, Punjab</p><small>CGPA: 8.52 / 10</small></div><time>2023 — 2027</time></article>
+        <article><div class="timeline-icon">⌘</div><div><h3>Student Internship Program</h3><p>CODSOFT · Completed internship program</p></div><time>INTERNSHIP</time></article>
+        <article><div class="timeline-icon">★</div><div><h3>ER3 — Yuva Kaushal Utsav</h3><p>Secured 1st position in the Skill / Cultural / Exhibition ER3 event.</p></div><time>2023</time></article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="certifications">
+      <div class="section-heading"><div class="section-overline"><span>05</span> CONTINUOUS LEARNING</div><h2>Certificates & <em>credentials.</em></h2><p class="section-desc">Open my LinkedIn certifications section to view the listed credentials and their available details.</p></div>
+      <div class="cert-grid">
+        <article class="cert-card"><span>CYBERSECURITY · FORAGE</span><h3>Deloitte Australia — Cyber Job Simulation</h3><p>Issued June 2026</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+        <article class="cert-card"><span>CYBERSECURITY · FORAGE</span><h3>Tata Group — Cybersecurity Analyst Job Simulation</h3><p>Issued November 2024</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+        <article class="cert-card"><span>PROGRAMMING · UDEMY</span><h3>Java Programming Masterclass</h3><p>August 2024</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+        <article class="cert-card"><span>DATA STRUCTURES · APNA COLLEGE</span><h3>Data Structures & Algorithms in Java</h3><p>Credential details on LinkedIn</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+        <article class="cert-card"><span>WEB DEVELOPMENT · APNA COLLEGE</span><h3>Full Stack Web Development</h3><p>August 2024 — January 2025</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+        <article class="cert-card"><span>WEB DEVELOPMENT · UDEMY</span><h3>Web Development Master</h3><p>2025</p><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">View on LinkedIn ↗</a></article>
+      </div>
+      <a class="all-certs" href="https://www.linkedin.com/in/bablu-arya-9165892aa/details/certifications/" target="_blank" rel="noopener">See all certifications on LinkedIn <span>↗</span></a>
+    </section>
+
+    <section class="section wrap" id="dsa">
+      <div class="section-heading"><div class="section-overline"><span>06</span> LEARNING IN PUBLIC · JAVA</div><h2>My DSA learning <em>path.</em></h2></div>
+      <div class="dsa-panel"><div class="dsa-copy"><div class="dsa-symbol">⌘</div><h3>Learning DSA through patterns, not random problem solving.</h3><p>I am following the Babua DSA Patterns course and practicing the concepts in Java. My focus is to understand each pattern, learn when to apply it, solve related problems, and revise consistently.</p><div class="text-links"><a href="https://youtu.be/qH2VQY48mg4" target="_blank" rel="noopener">Watch the course video ↗</a><a href="https://github.com/team-codebug/babua-dsa-patterns-course" target="_blank" rel="noopener">Course notes & practice sheet ↗</a></div>
+      <div class="coding-profiles">
+        <a class="profile-link" href="https://leetcode.com/u/Bablu6342/" target="_blank" rel="noopener"><span class="profile-icon">LC</span><span><b>LeetCode</b><small>View problem-solving profile</small></span><strong>↗</strong></a>
+        <a class="profile-link" href="https://www.geeksforgeeks.org/profile/iambablu?tab=activity" target="_blank" rel="noopener"><span class="profile-icon gfg">GfG</span><span><b>GeeksforGeeks</b><small>View coding activity</small></span><strong>↗</strong></a>
+      </div></div><div class="topic-grid"><div><small>01</small>Two Pointers</div><div><small>02</small>Fast & Slow Pointers</div><div><small>03</small>Pattern-based problem solving</div><div><small>04</small>LeetCode practice</div><div><small>05</small>Topic-wise revision</div><div><small>06</small>Complexity analysis</div></div></div>
+    </section>
+
+    <section class="section wrap" id="contact">
+      <div class="section-heading"><div class="section-overline"><span>07</span> GET IN TOUCH</div><h2>Let's <em>talk.</em></h2></div>
+      <div class="two-col contact-layout"><div><p class="statement">Have a project, opportunity, or technical conversation in mind?</p><p class="body-copy">I'm interested in meaningful engineering work and opportunities to learn and contribute.</p><div class="contact-details"><a href="mailto:babluarya0605@gmail.com">✉ babluarya0605@gmail.com</a><a href="https://github.com/khardiya" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/bablu-arya-9165892aa/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+      <form id="contactForm"><label for="name">Your name</label><input id="name" name="name" placeholder="Name" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea><button class="button button-primary" type="submit">Open email draft <span>↗</span></button><p class="form-note" id="formNote">This opens your email app with the message prepared; it does not send automatically.</p></form></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#home"><span class="brand-mark">B<span>.</span></span><span>BABLU ARYA</span></a><p>Designed & built with care. © <span id="year"></span> Bablu Arya.</p><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
