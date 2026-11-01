@@ -1,4 +1,4 @@
-# Bablu Arya — Vanilla Portfolio
+# Bablu Arya —Portfolio
 
 A responsive portfolio built with plain HTML, CSS and JavaScript. No React, Vite, npm install, or build step is required.
 
